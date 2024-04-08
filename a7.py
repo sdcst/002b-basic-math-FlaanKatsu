@@ -1,4 +1,4 @@
-#!python3
+#!/usr/bin/env python3
 
 '''
 ##### Task 7
@@ -11,3 +11,8 @@ Read through the file **example1.py** for information on using the math module.
 * You will require the use of the round() function from example1.py
 '''
 
+import math
+F = 62.5 
+C = (F - 32)*5/9
+C_aux = math.floor(C)
+print(f"{F} degrees fahrenheit is {C_aux} in celcius")
